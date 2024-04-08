@@ -24,9 +24,9 @@ Settings Page:
 Run the following command in your Strapi project to install vercel-deploy:
 
 ```shell
-yarn add strapi-plugin-vercel-deploy
+yarn add @going-dev/strapi-plugin-vercel-deploy
 # or
-npm i -S strapi-plugin-vercel-deploy
+npm i -S @going-dev/strapi-plugin-vercel-deploy
 ```
 
 ### Enable plugin configuration

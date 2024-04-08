@@ -2,7 +2,10 @@
   "name": "strapi-plugin-vercel-deploy",
   "version": "1.4.0",
   "description": "Forked Strapi v4 plugin to trigger and monitor a deployment on Vercel",
-  "repository": "https://github.com/going-dev/strapi-plugin-vercel-deploy.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/going-dev/strapi-plugin-vercel-deploy.git"
+  },
   "homepage": "https://github.com/going-dev/strapi-plugin-vercel-deploy",
   "author": "AdamLantz <adam@going.com>",
   "license": "MIT",

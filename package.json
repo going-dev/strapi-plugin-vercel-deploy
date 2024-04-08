@@ -1,13 +1,10 @@
 {
   "name": "strapi-plugin-vercel-deploy",
   "version": "1.4.0",
-  "description": "Strapi v4 plugin to trigger and monitor a deployment on Vercel",
-  "repository": "https://github.com/gianlucaparadise/strapi-plugin-vercel-deploy.git",
-  "bugs": {
-    "url": "https://github.com/gianlucaparadise/strapi-plugin-vercel-deploy/issues"
-  },
-  "homepage": "https://github.com/gianlucaparadise/strapi-plugin-vercel-deploy#readme",
-  "author": "gianlucaparadise <gianlucaparadise@gmail.com>",
+  "description": "Forked Strapi v4 plugin to trigger and monitor a deployment on Vercel",
+  "repository": "https://github.com/going-dev/strapi-plugin-vercel-deploy.git",
+  "homepage": "https://github.com/going-dev/strapi-plugin-vercel-deploy",
+  "author": "AdamLantz <adam@going.com>",
   "license": "MIT",
   "strapi": {
     "name": "vercel-deploy",
@@ -17,15 +14,15 @@
   },
   "maintainers": [
     {
-      "name": "Gianluca Paradiso",
-      "email": "gianlucaparadise@gmail.com"
+      "name": "Adam Lantz",
+      "email": "adam@going.com"
     }
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/going-dev"
   },
   "engines": {
-    "node": ">=14.x.x <=18.x.x",
+    "node": ">=14.x.x <=20.x.x",
     "npm": ">=6.0.0"
   },
   "dependencies": {
@@ -41,5 +38,8 @@
     "plugin",
     "vercel",
     "vercel-deploy"
-  ]
+  ],
+  "devDependencies": {
+    "semantic-release": "^23.0.7"
+  }
 }

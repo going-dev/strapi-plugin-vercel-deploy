@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-vercel-deploy",
+  "name": "@going-dev/strapi-plugin-vercel-deploy",
   "version": "1.4.0",
   "description": "Forked Strapi v4 plugin to trigger and monitor a deployment on Vercel",
   "repository": {

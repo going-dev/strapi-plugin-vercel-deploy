@@ -1,13 +1,10 @@
 {
   "vercel-deploy.plugin.name": "Vercel Deploy",
-
   "vercel-deploy-settings.links-header": "Vercel Deploy",
   "vercel-deploy-settings.link-configuration-label": "Configuration",
-
   "home-page.header.title": "Vercel Deploy",
   "home-page.header.subtitle": "Manual deploy - Start a deployment on Vercel using the webhook you configured",
   "home-page.deployments.loader": "Fetching deployments",
-
   "settings-page.header.title": "Configuration",
   "settings-page.header.subtitle": "Configure your Vercel Deploy plugin",
   "settings-page.settings-container.loader": "Loading settings...",
@@ -29,10 +26,8 @@
   "settings-page.team-id.learn-more-intro": "Set the id of your",
   "settings-page.team-id.learn-more-link-text": "Vercel Team",
   "settings-page.team-id.learn-more-outro": "to see only the deployments you need",
-
   "deploy-button.label": "Deploy",
   "deploy-button.loader": "Deploying...",
-
   "deploy-error-message.missing-config-object": "Unexpected config error: the config object is empty",
   "deploy-error-message.missing-config-variable.intro": "You did not set the Vercel Deploy Hook. ",
   "deploy-error-message.missing-config-variable.link-text": "See plugin settings",
@@ -40,9 +35,7 @@
   "deploy-error-message.error-forbidden": "You may not have the correct permissions",
   "deploy-error-message.error-deploy": "Unexpected deploy error: please retry",
   "deploy-error-message.default": "Unexpected error",
-
   "deployments-container.loader": "Loading content...",
-
   "deployments-empty-state.missing-config-object": "The config object is empty and this is unexpected",
   "deployments-empty-state.missing-config-variable": "You did not set the Vercel API Token. Go to Plugin settings for more info",
   "deployments-empty-state.missing-config-variable.link-text": "See plugin settings",
@@ -52,8 +45,8 @@
   "deployments-empty-state.error-forbidden": "You may not have the correct permissions",
   "deployments-empty-state.error-config": "There was an error while fetching the configurations. Please, retry.",
   "deployments-empty-state.default": "There was an unexpected error",
-
   "deployments-list.table-header.app-name": "App name",
+  "deployments-list.table-header.env": "Environment",
   "deployments-list.table-header.state": "State",
   "deployments-list.table-header.creation-date": "Creation date",
   "deployments-list.table-body.visit-url-text": "Visit",

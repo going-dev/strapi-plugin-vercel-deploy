@@ -91,6 +91,12 @@ const DeploymentsList = ({ deployments, usePolling }) => {
           <Th>
             <FormattedMessage
               variant={headerFontVariant}
+              labelId="deployments-list.table-header.env"
+            />
+          </Th>
+          <Th>
+            <FormattedMessage
+              variant={headerFontVariant}
               labelId="deployments-list.table-header.state"
             />
             {usePolling && (
@@ -113,6 +119,9 @@ const DeploymentsList = ({ deployments, usePolling }) => {
           <Tr key={entry.uid}>
             <Td>
               <Typography textColor={cellTextColor}>{entry.name}</Typography>
+            </Td>
+            <Td>
+              <Typography textColor={cellTextColor}>{entry.target}</Typography>
             </Td>
             <Td>
               <Badge
